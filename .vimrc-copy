@@ -1,0 +1,26 @@
+"================= Important ================="  
+filetype off
+filetype plugin indent on
+set nocompatible
+let mapleader = ","  
+
+"natural window splits
+set splitbelow
+set splitright
+
+
+
+source $HOME/.vim/vimrc/spelling.vim
+source $HOME/.vim/vimrc/settings.vim
+source $HOME/.vim/vimrc/mappings.vim
+source $HOME/.vim/vimrc/misc.vim
+
+"================= Convenience ================="  
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+nnoremap <tab> %
+vnoremap <tab> %
+
